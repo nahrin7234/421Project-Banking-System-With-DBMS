@@ -1,0 +1,8 @@
+option page: Create a account, Delete an account, Find an account info, Account acitivities
+Create an account: Provide user info(F,M,L, DOB), account# and provide admin password; then check admin info and if true, insert into database
+Delete an account: Provide account Id, custID and admin info; If true, delete
+Search for account: Provide account ID, custId; If true, return all the information of the account and account holder
+Activities:
+	Withdraw option: Provide account ID, custID, amount; If accId, custID true, check for enough balance and update to withdraw
+	Deposit: Provide account ID, custID, ammount; If accID, custId true, Update to deposit
+Provide a loan: Provide acc ID, custId, adminId; If true, provide a loan with loan number and amount
